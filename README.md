@@ -14,3 +14,23 @@ Dependencies
 ------------
 The project requires:
 - Java SE 7
+
+How to use
+------------
+The entry point is ``` com.raytracing.main.Main ```.
+
+The camera controls are as following-
+* `w`: forward
+* `a`: left
+* `s`: back
+* `d`: right
+* `left arrow` / `right arrow`: yaw
+* `up arrow` / `down arrow`: pitch
+* `,` / `.` : roll
+* `[` / `]`: fly
+* `0`: reset camera position and orientation
+
+Other controls-
+* `g`: toggle fast rendering on or off. In fast rendering mode, only ray tracking is executed(no reflection or refraction is allowed)
+* `h`: enable anti-aliasing
+* `j`: disable anti-aliasing
